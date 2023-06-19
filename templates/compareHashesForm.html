@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>IS2 Assignment 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<h1><a href="{{ url_for('home') }}">IS2 Assignment 5</a></h1>
+<h1>Chinmay Mandale</h1>
+<h1>1001995246</h1>
+<h1>Compare hashes</h1>
+<div>
+
+    <form enctype = "multipart/form-data" method="POST" action="/compare_hashes">
+        <p>File 1:</p>
+        <input type="file" id="file1" name="file1"><br/>
+        <p>File 2:</p>
+        <input type="file" id="file2" name="file2"><br/>
+
+        <input type="submit">
+    </form>
+
+</div>
+
+</body>
+</html>

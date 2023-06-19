@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Decrypt RSA</title>
+  </head>
+  <body>
+    <h1>Decrypt RSA</h1>
+    <form enctype = "multipart/form-data" method="post" action="/decryptRSA">
+      <div>
+        <label for="folder">Folder:</label>
+        <input type="text" id="folder" name="folder">
+      </div>
+      <p>input file:</p>
+        <input type="file" id="ip_file" name="ip_file"><br/>
+        <p>output file:</p>
+        <input type="file" id="op_file" name="op_file"><br/>
+      <div>
+        <button type="submit">Decrypt RSA</button>
+      </div>
+    </form>
+  </body>
+</html>
